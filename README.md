@@ -59,7 +59,7 @@
 
 ### Control Unit
 
-<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/ControlUnit.png" width="720" alt="Nitro-8 Hardwired Control Unit"/>
+<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/ControlUnit.png" width="380" alt="Nitro-8 Hardwired Control Unit"/>
 
 *Hardwired Control Unit decoding 16+ instructions into micro-control signals*
 
@@ -71,7 +71,7 @@
 
 ### Storage Unit & Screen
 
-<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/StorageUnit.png" width="360" alt="Nitro-8 Storage Unit — 20 sprite ROMs"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/Screen.png" width="336" alt="Nitro-8 RGB Display output"/>
+<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/StorageUnit.png" width="380" alt="Nitro-8 Storage Unit — 20 sprite ROMs"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/Screen.png" width="380" alt="Nitro-8 RGB Display output"/>
 
 *Left — Modular Storage System with 20 independent Sprite Units · Right — 16×16 RGB pixel display output*
 
