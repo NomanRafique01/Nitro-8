@@ -123,7 +123,7 @@ The CPU can **fetch, decode, and execute** real assembly instructions, perform a
 
 <br/>
 
-<img src="https://github.com/NomanRafique01/Nitro-8/blob/main/assets/demo.gif/demo.gif?raw=true" width="840" alt="Nitro-8 Live Simulation — CPU running sprite programs on the 16×16 RGB display"/>
+<img src="https://github.com/NomanRafique01/Nitro-8/blob/main/assets/demo.gif/demo1.gif?raw=true" width="1280" alt="Nitro-8 Live Simulation — CPU running sprite programs on the 16×16 RGB display"/>
 
 <br/>
 
