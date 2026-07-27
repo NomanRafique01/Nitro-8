@@ -41,7 +41,7 @@
 - [Features](#features)
 - [Architecture](#architecture)
 - [Live Simulation](#live-simulation)
-- [Circuit Screenshots](#circuit-screenshots)
+- [Circuit Overview](#circuit-overview)
 - [Instruction Set](#instruction-set)
 - [RGB Display](#rgb-display)
 - [Storage System](#storage-system)
@@ -136,7 +136,7 @@ The CPU can **fetch, decode, and execute** real assembly instructions, perform a
 
 ---
 
-## Circuit Screenshots
+## Circuit Overview
 
 <div align="center">
 
@@ -152,11 +152,63 @@ The CPU can **fetch, decode, and execute** real assembly instructions, perform a
 
 <div align="center">
 
-### ② &nbsp; Control Unit &nbsp;&nbsp;|&nbsp;&nbsp; ③ &nbsp; Storage System &nbsp;&nbsp;|&nbsp;&nbsp; ④ &nbsp; RGB Display Output
+### ② &nbsp; Control Unit &nbsp;&nbsp;|&nbsp;&nbsp; ③ &nbsp; Storage System
 
-<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/ControlUnit.png" width="370" alt="Nitro-8 Hardwired Control Unit"/>&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/StorageUnit.png" width="370" alt="Nitro-8 Storage System — 20 Sprite Units"/>&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/Screen.png" width="370" alt="Nitro-8 16×16 RGB Display Output"/>
+<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/ControlUnit.png" width="410" alt="Nitro-8 Hardwired Control Unit"/>&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/StorageUnit.png" width="410" alt="Nitro-8 Storage System — 20 Sprite Units"/>
 
-*Left — Hardwired Control Unit &nbsp;·&nbsp; Centre — 20-Unit Sprite Storage with MUX selection &nbsp;·&nbsp; Right — 16×16 RGB pixel display rendering a sprite*
+*Left — Hardwired Control Unit decoding 16+ instructions into micro-control signals*
+*Right — 20-Unit Sprite Storage System with MUX-based selection*
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### ④ &nbsp; ALU &nbsp;&nbsp;|&nbsp;&nbsp; ⑤ &nbsp; 8-bit Register
+
+<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/alu.png" width="410" alt="Nitro-8 8-bit ALU"/>&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/resgister.png" width="410" alt="Nitro-8 8-bit Register"/>
+
+*Left — 8-bit ALU performing arithmetic and logic operations*
+*Right — 8-bit D flip-flop based register*
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### ⑥ &nbsp; 8-bit Adder &nbsp;&nbsp;|&nbsp;&nbsp; ⑦ &nbsp; RAM
+
+<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/8-Bit%20Adder.png" width="410" alt="Nitro-8 8-bit Ripple Carry Adder"/>&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/Ram.png" width="410" alt="Nitro-8 256-byte RAM"/>
+
+*Left — 8-bit Ripple Carry Adder built from full adder chains*
+*Right — 256×8 synchronous RAM with read/write support*
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### ⑧ &nbsp; Program Counter &nbsp;&nbsp;|&nbsp;&nbsp; ⑨ &nbsp; Instruction Register
+
+<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/programcounter.png" width="410" alt="Nitro-8 Program Counter"/>&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/InstructionRegister.png" width="410" alt="Nitro-8 16-bit Instruction Register"/>
+
+*Left — 8-bit Program Counter with increment, load, and synchronous reset*
+*Right — 16-bit Instruction Register splitting opcode and operand*
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### ⑩ &nbsp; RGB Display Output
+
+<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/screenshots/Screen.png" width="500" alt="Nitro-8 16×16 RGB Display Output"/>
+
+*16×16 RGB pixel display rendering a sprite in XTerm256 8-bit color*
 
 </div>
 
