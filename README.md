@@ -123,7 +123,7 @@ The CPU can **fetch, decode, and execute** real assembly instructions, perform a
 
 <br/>
 
-<img src="https://github.com/NomanRafique01/Nitro-8/blob/main/assets/demo.gif/demo1.gif?raw=true" width="1280" alt="Nitro-8 Live Simulation — CPU running sprite programs on the 16×16 RGB display"/>
+<img src="https://raw.githubusercontent.com/NomanRafique01/Nitro-8/main/assets/demo/demo1.gif" width="1280" alt="Nitro-8 Live Simulation — CPU running sprite programs on the 16×16 RGB display"/>
 
 <br/>
 
@@ -332,8 +332,8 @@ Nitro-8/
 ├── assembler.py              ← Python assembler
 ├── README.md
 ├── assets/
-│   ├── demo.gif/
-│   │   └── demo.gif          ← Live simulation recording
+│   ├── demo/
+│   │   └── demo1.gif         ← Live simulation recording
 │   └── screenshots/
 │       ├── main.png          ← Full CPU circuit
 │       ├── ControlUnit.png   ← Hardwired control unit
