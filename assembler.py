@@ -24,10 +24,25 @@ INSTRUCTIONS_WITH_OPERAND = {
     'SETBANK':  '90',
 }
 
+CLEAR_MACRO = [
+    'LOAD_A 00',
+    'LOAD_B 00',
+    'VSTORE_B',
+    'INC_B',
+    'JZ 0B',
+    'JMP 04',
+]
+
 def assemble(code):
     lines = code.strip().split('\n')
-    machine_code = []
+    expanded = []
     for line in lines:
+        if line.strip().upper() == 'CLEAR':
+            expanded.extend(CLEAR_MACRO)
+        else:
+            expanded.append(line)
+    machine_code = []
+    for line in expanded:
         line = line.strip()
         if not line or line.startswith(';'):
             continue
